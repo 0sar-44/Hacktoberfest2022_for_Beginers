@@ -1,0 +1,84 @@
+// c
+void multiply(int A[][N], int B[][N], int C[][N])
+{
+    for (int i = 0; i < N; i++)
+    {
+        for (int j = 0; j < N; j++)
+        {
+            C[i][j] = 0;
+            for (int k = 0; k < N; k++)
+            {
+                C[i][j] += A[i][k]*B[k][j];
+            }
+        }
+    }
+}
+
+
+// java.
+// java code
+static int multiply(int A[][N], int B[][N], int C[][N])
+{
+    for (int i = 0; i < N; i++)
+    {
+        for (int j = 0; j < N; j++)
+        {
+            C[i][j] = 0;
+            for (int k = 0; k < N; k++)
+            {
+                C[i][j] += A[i][k]*B[k][j];
+            }
+        }
+    }
+}
+python.
+
+def multiply(A, B, C):
+ 
+    for i in range(N):
+     
+        for j in range( N):
+         
+            C[i][j] = 0
+            for k in range(N):
+             
+                C[i][j] += A[i][k]*B[k][j]
+// Javascript
+function multiply(A, B, C)
+{
+    for (var i = 0; i < N; i++)
+    {
+        for (var j = 0; j < N; j++)
+        {
+            C[i][j] = 0;
+            for (var k = 0; k < N; k++)
+            {
+                C[i][j] += A[i][k]*B[k][j];
+            }
+        }
+    }
+}
+
+//html 
+
+<html>
+<head>
+<style>
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+</style>
+</head>
+<body>
+
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+</body>
+</html>
+
+
